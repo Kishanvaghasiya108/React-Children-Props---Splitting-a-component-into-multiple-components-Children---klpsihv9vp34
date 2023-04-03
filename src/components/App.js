@@ -13,8 +13,9 @@ const App = () => {
  }
   return (
     <div id="main">
-      <ChildComponent /> 
+      <ChildComponent> 
        <input id='input' onChange={changeHandler} />
+       </ChildComponent>
     
       <p id='output'>{square}</p>
     </div>
